@@ -1,5 +1,7 @@
 package com.caiovlf.api.repositories.utils;
 
+import java.security.NoSuchAlgorithmException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -17,7 +19,7 @@ public class PasswordUtils {
 	 * @param senha
 	 * @return String
 	 */
-	public static String gerarBCrypt(String senha) {
+	public static String gerarBCrypt(String senha) throws NoSuchAlgorithmException {
 		if (senha == null) {
 			return senha;
 		}
