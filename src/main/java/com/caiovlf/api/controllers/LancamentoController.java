@@ -18,6 +18,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -161,6 +162,27 @@ public class LancamentoController {
 		return ResponseEntity.ok(response);
 	}	
 	
+	/**
+	 *  Remove Lançamento por ID
+	 *  
+	 * @param id
+	 * @return esponseEntity<Response<String>>
+	 */
+	
+	@DeleteMapping(value = "/{id}")
+	public ResponseEntity<Response<String>> remover(@PathVariable("id") Long id){
+		log.info("Removendo Lançamento ID: {}", id);
+		Response<String> response = new Response<String>();
+		Optional<Lancamento> lancamento = this.lancamentoService.buscarPorId(id);
+		
+		if(!lancamento.isPresent()) {
+			return  ResponseEntity.badRequest().body(response);
+		}
+		
+		this.lancamentoService.remover(id);
+		
+		return ResponseEntity.ok(new Response<String>());
+	}
 
 	/**
 	 * Converte um LancamentoDto para uma entidade Lancamento.
