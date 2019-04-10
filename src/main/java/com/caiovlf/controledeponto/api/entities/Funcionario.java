@@ -1,4 +1,4 @@
-package com.caiovlf.api.entities;
+package com.caiovlf.controledeponto.api.entities;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -20,7 +20,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
-import com.caiovlf.api.repositories.enums.PerfilEnum;
+import com.caiovlf.controledeponto.api.repositories.enums.PerfilEnum;
 
 @Entity
 @Table(name = "funcionario")

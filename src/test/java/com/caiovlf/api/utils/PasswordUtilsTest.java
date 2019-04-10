@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.caiovlf.api.repositories.utils.PasswordUtils;
+import com.caiovlf.controledeponto.api.repositories.utils.PasswordUtils;
 
 public class PasswordUtilsTest {
 	

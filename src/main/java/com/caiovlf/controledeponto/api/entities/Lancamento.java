@@ -1,4 +1,4 @@
-package com.caiovlf.api.entities;
+package com.caiovlf.controledeponto.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,7 +18,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.caiovlf.api.repositories.enums.TipoEnum;
+import com.caiovlf.controledeponto.api.repositories.enums.TipoEnum;
 
 @Entity
 @Table(name = "lancamento")

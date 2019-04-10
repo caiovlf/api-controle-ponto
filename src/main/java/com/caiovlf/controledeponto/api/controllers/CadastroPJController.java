@@ -1,4 +1,4 @@
-package com.caiovlf.api.controllers;
+package com.caiovlf.controledeponto.api.controllers;
 
 import java.security.NoSuchAlgorithmException;
 
@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.caiovlf.api.dtos.CadastroPJDto;
-import com.caiovlf.api.entities.Empresa;
-import com.caiovlf.api.entities.Funcionario;
-import com.caiovlf.api.repositories.enums.PerfilEnum;
-import com.caiovlf.api.repositories.utils.PasswordUtils;
-import com.caiovlf.api.response.Response;
-import com.caiovlf.api.services.EmpresaService;
-import com.caiovlf.api.services.FuncionarioService;
+import com.caiovlf.controledeponto.api.dtos.CadastroPJDto;
+import com.caiovlf.controledeponto.api.entities.Empresa;
+import com.caiovlf.controledeponto.api.entities.Funcionario;
+import com.caiovlf.controledeponto.api.repositories.enums.PerfilEnum;
+import com.caiovlf.controledeponto.api.repositories.utils.PasswordUtils;
+import com.caiovlf.controledeponto.api.response.Response;
+import com.caiovlf.controledeponto.api.services.EmpresaService;
+import com.caiovlf.controledeponto.api.services.FuncionarioService;
 
 @RestController
 @RequestMapping("/api/cadastrar-pj")

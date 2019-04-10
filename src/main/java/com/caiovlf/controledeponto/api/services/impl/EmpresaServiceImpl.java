@@ -1,4 +1,4 @@
-package com.caiovlf.api.services.impl;
+package com.caiovlf.controledeponto.api.services.impl;
 
 import java.util.Optional;
 
@@ -7,9 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.caiovlf.api.entities.Empresa;
-import com.caiovlf.api.repositories.EmpresaRepository;
-import com.caiovlf.api.services.EmpresaService;
+import com.caiovlf.controledeponto.api.entities.Empresa;
+import com.caiovlf.controledeponto.api.repositories.EmpresaRepository;
+import com.caiovlf.controledeponto.api.services.EmpresaService;
 
 @Service
 public class EmpresaServiceImpl implements EmpresaService{

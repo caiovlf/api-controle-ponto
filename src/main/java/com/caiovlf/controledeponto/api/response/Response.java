@@ -1,4 +1,4 @@
-package com.caiovlf.api.response;
+package com.caiovlf.controledeponto.api.response;
 
 import java.util.ArrayList;
 import java.util.List;

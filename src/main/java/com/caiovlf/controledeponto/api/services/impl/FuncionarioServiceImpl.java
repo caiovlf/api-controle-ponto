@@ -1,4 +1,4 @@
-package com.caiovlf.api.services.impl;
+package com.caiovlf.controledeponto.api.services.impl;
 
 import java.util.Optional;
 
@@ -7,9 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.caiovlf.api.entities.Funcionario;
-import com.caiovlf.api.repositories.FuncionarioRepository;
-import com.caiovlf.api.services.FuncionarioService;
+import com.caiovlf.controledeponto.api.entities.Funcionario;
+import com.caiovlf.controledeponto.api.repositories.FuncionarioRepository;
+import com.caiovlf.controledeponto.api.services.FuncionarioService;
 
 @Service
 public class FuncionarioServiceImpl implements FuncionarioService {

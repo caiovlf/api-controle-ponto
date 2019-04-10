@@ -1,8 +1,8 @@
-package com.caiovlf.api.services;
+package com.caiovlf.controledeponto.api.services;
 
 import java.util.Optional;
 
-import com.caiovlf.api.entities.Empresa;
+import com.caiovlf.controledeponto.api.entities.Empresa;
 
 public interface EmpresaService {
 	

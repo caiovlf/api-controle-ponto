@@ -16,8 +16,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.caiovlf.api.entities.Empresa;
-import com.caiovlf.api.repositories.EmpresaRepository;
+import com.caiovlf.controledeponto.api.entities.Empresa;
+import com.caiovlf.controledeponto.api.repositories.EmpresaRepository;
+import com.caiovlf.controledeponto.api.services.EmpresaService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

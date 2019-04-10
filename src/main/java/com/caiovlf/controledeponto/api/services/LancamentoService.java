@@ -1,11 +1,11 @@
-package com.caiovlf.api.services;
+package com.caiovlf.controledeponto.api.services;
 
 import java.util.Optional;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-import com.caiovlf.api.entities.Lancamento;
+import com.caiovlf.controledeponto.api.entities.Lancamento;
 
 public interface LancamentoService {
 

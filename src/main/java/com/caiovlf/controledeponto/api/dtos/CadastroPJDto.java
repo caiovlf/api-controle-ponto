@@ -1,4 +1,4 @@
-package com.caiovlf.api.dtos;
+package com.caiovlf.controledeponto.api.dtos;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;

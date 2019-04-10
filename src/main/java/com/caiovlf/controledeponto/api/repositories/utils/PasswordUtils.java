@@ -1,4 +1,4 @@
-package com.caiovlf.api.repositories.utils;
+package com.caiovlf.controledeponto.api.repositories.utils;
 
 import java.security.NoSuchAlgorithmException;
 

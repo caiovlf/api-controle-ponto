@@ -1,4 +1,4 @@
-package com.caiovlf.api.entities;
+package com.caiovlf.controledeponto.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;

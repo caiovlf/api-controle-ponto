@@ -1,4 +1,4 @@
-package com.caiovlf.api.repositories.enums;
+package com.caiovlf.controledeponto.api.repositories.enums;
 
 public enum TipoEnum {
 	INICIO_TRABALHO,

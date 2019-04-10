@@ -1,4 +1,4 @@
-package com.caiovlf.api.services.impl;
+package com.caiovlf.controledeponto.api.services.impl;
 
 import java.util.Optional;
 
@@ -11,9 +11,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.caiovlf.api.entities.Lancamento;
-import com.caiovlf.api.repositories.LancamentoRepository;
-import com.caiovlf.api.services.LancamentoService;
+import com.caiovlf.controledeponto.api.entities.Lancamento;
+import com.caiovlf.controledeponto.api.repositories.LancamentoRepository;
+import com.caiovlf.controledeponto.api.services.LancamentoService;
 
 @Service
 public class LancamentoServiceImpl implements LancamentoService {

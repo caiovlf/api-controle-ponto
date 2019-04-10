@@ -1,4 +1,4 @@
-package com.caiovlf.api.configuration;
+package com.caiovlf.controledeponto.api.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
