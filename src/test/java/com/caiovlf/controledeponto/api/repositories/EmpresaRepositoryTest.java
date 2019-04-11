@@ -1,4 +1,4 @@
-package com.caiovlf.api.controledeponto.repositories;
+package com.caiovlf.controledeponto.api.repositories;
 
 import static org.junit.Assert.assertEquals;
 

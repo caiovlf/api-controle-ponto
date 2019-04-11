@@ -1,4 +1,4 @@
-package com.caiovlf.api.controledeponto.utils;
+package com.caiovlf.controledeponto.api.utils;
 
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
