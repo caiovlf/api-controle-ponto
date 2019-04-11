@@ -21,12 +21,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.caiovlf.api.dtos.LancamentoDto;
-import com.caiovlf.api.entities.Funcionario;
-import com.caiovlf.api.entities.Lancamento;
-import com.caiovlf.api.repositories.enums.TipoEnum;
-import com.caiovlf.api.services.FuncionarioService;
-import com.caiovlf.api.services.LancamentoService;
+import com.caiovlf.controledeponto.api.dtos.LancamentoDto;
+import com.caiovlf.controledeponto.api.entities.Funcionario;
+import com.caiovlf.controledeponto.api.entities.Lancamento;
+import com.caiovlf.controledeponto.api.repositories.enums.TipoEnum;
+import com.caiovlf.controledeponto.api.services.FuncionarioService;
+import com.caiovlf.controledeponto.api.services.LancamentoService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

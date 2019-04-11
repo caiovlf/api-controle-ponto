@@ -20,8 +20,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.caiovlf.api.entities.Lancamento;
-import com.caiovlf.api.repositories.LancamentoRepository;
+import com.caiovlf.controledeponto.api.entities.Lancamento;
+import com.caiovlf.controledeponto.api.repositories.LancamentoRepository;
+import com.caiovlf.controledeponto.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

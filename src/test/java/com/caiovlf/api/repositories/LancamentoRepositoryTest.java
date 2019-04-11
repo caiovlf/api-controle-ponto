@@ -17,12 +17,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.caiovlf.api.entities.Empresa;
-import com.caiovlf.api.entities.Funcionario;
-import com.caiovlf.api.entities.Lancamento;
-import com.caiovlf.api.repositories.enums.PerfilEnum;
-import com.caiovlf.api.repositories.enums.TipoEnum;
-import com.caiovlf.api.repositories.utils.PasswordUtils;
+import com.caiovlf.controledeponto.api.entities.Empresa;
+import com.caiovlf.controledeponto.api.entities.Funcionario;
+import com.caiovlf.controledeponto.api.entities.Lancamento;
+import com.caiovlf.controledeponto.api.repositories.EmpresaRepository;
+import com.caiovlf.controledeponto.api.repositories.FuncionarioRepository;
+import com.caiovlf.controledeponto.api.repositories.LancamentoRepository;
+import com.caiovlf.controledeponto.api.repositories.enums.PerfilEnum;
+import com.caiovlf.controledeponto.api.repositories.enums.TipoEnum;
+import com.caiovlf.controledeponto.api.repositories.utils.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

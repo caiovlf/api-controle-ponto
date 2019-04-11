@@ -20,8 +20,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.caiovlf.api.entities.Empresa;
-import com.caiovlf.api.services.EmpresaService;
+import com.caiovlf.controledeponto.api.entities.Empresa;
+import com.caiovlf.controledeponto.api.services.EmpresaService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
