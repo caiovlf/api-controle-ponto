@@ -1,4 +1,4 @@
-package com.caiovlf.api.controllers;
+package com.caiovlf.api.controledeponto.controllers;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

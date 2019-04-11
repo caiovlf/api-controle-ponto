@@ -1,4 +1,4 @@
-package com.caiovlf.api;
+package com.caiovlf.controledeponto.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
