@@ -6,7 +6,7 @@ Controle de Ponto API, this system processes and stores the input and output rec
 # Tools Used
 - Java 1.8
 - Spring Boot
-- JPA e Spring Data
+- JPA & Spring Data
 - FlyWay
 - TravisCI
 - Swagger
