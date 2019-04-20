@@ -1,7 +1,7 @@
 
 [![Build Status](https://travis-ci.org/caiovlf/api-controle-ponto.svg?branch=master)](https://travis-ci.org/caiovlf/api-controle-ponto)
 # API Controle de Ponto
-Controle de Ponto API, this system processes and stores the input and output records of an employee in a particular company.
+This API processes and stores the input and output records of an employee in a particular company.
 
 # Tools Used
 - Java 1.8
