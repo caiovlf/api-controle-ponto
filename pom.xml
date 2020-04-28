@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.caiovlf</groupId>
 	<artifactId>controle-de-ponto</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>ControleDePonto</name>
 	<description></description>
 
